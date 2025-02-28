@@ -4,46 +4,34 @@ public class StringExamples {
 
 	public static void main(String[] args) {
 
-	
-	// Primitive data types byte......boolean 
-	// non-primitive: String 
-	// Variable 
-	
+		// Primitive data types byte......boolean
+		// non-primitive: String
+		// Variable
+
 		int age = 25;
-		age = 30; 
+		age = 30;
 		char ch = 'c';
-		
-		
-		// type identifier = value 
-		
+
+		// type identifier = value
+
 		String schoolName = "Neotech";
-		String name = "Baris"; 
-		 age = 100;
-		String income = "110K";
+		String name = "Baris";
+		age = 100;
+		int income = 110;
 		String nationality = "Ecuadorian";
-		
-		
-		income = "150";
-		income = "not specified";
-		
-		
+
+		// you can change datatypes for income anytime you want but you need to keep
+		// them tll the end of the method
+
+		income = 150;
+		income = 0;
+
 		System.out.println(nationality);
 		System.out.println(name);
 		System.out.println(income);
 		System.out.println(age);
 		System.out.println(schoolName);
-		
-		
-		
-		
 
-		
-		
-		
-	
-	
-	
-	
 	}
 
 }

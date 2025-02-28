@@ -1,6 +1,6 @@
 package com.neotech.lesson05;
 
-public class Homework2 {
+public class TempertureCheck {
 
 	public static void main(String[] args) {
 
@@ -11,15 +11,12 @@ public class Homework2 {
 		 * temperature__”, otherwise “Water will NOT freeze with temperature __”.
 		 */
 
-		int temp = 35;
+		int t = 30;
 
-		if (temp < 32) {
-			System.out.println("Water will freeze with temperature " + temp);
-
-		}
-
-		else {
-			System.out.println("Watel will not freeze with termperature " + temp);
+		if (t < 32) {
+			System.out.println("Water will freeze with " + " temperature " + t);
+		} else {
+			System.out.println("Water will NOT freeze with temperature " + t);
 		}
 
 	}

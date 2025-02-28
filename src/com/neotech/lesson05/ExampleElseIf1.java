@@ -4,7 +4,7 @@ public class ExampleElseIf1 {
 
 	public static void main(String[] args) {
 
-		int age = 45;
+		int age = 19;
 
 		if (age < 13) {
 			System.out.println("child");

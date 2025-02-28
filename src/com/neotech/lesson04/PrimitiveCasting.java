@@ -29,7 +29,7 @@ public class PrimitiveCasting {
 		
 		// narrowign, explicit casting, manually 
 		
-		int num2 = (int) 6.3; // I tell Java, I want to store it as an int 
+		int num2 = (int) 6.8; // I tell Java, I want to store it as an int 
 		System.out.println(num2);
 		
 		
@@ -40,7 +40,8 @@ public class PrimitiveCasting {
 		
 		System.out.println("------------------------------");
 		
-		int i2 = 45; 
+		int i2 = 567; 
+		System.out.println(i2);
 		byte b2 = (byte) i2; // i may or may not lose data 
 		
 		System.out.println(b2); // I did NOT lose data 
@@ -48,15 +49,17 @@ public class PrimitiveCasting {
 		// narrowing 
 		
 		long l1 = 17; 
-		int number1 = (int) l1; 
-		System.out.println(number1); // I did NOT lose data 
+		int number1 = (int) l1; // I did NOT lose data
+		System.out.println(number1); // I DID lose data 
 		
 		// narrowing 
 		// We are trying to fit someting big into a small container 
 		
 		long l2 = 87459687456456L;
 		int number2 = (int) l2;
-		System.out.println(number2); // I DID not lose data 
+		System.out.println("------------------------------");
+		System.out.println(l2); // this is printin the original value
+		System.out.println(number2); // I DID lose data // this is printing the value after
 		
 		// Widening, implicit casting, automatically 
 		
