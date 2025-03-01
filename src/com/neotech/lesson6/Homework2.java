@@ -9,27 +9,33 @@ public class Homework2 {
 		 * greater than or equal 12 noon but less than 3 pm, greet with Good Afternoon
 		 * if hour is greater than or equal to 3 pm, greet with Good Evening
 		 */
-//
-//		double time = 22;
-//
-//		if (time < 12) {
-//			System.out.println("Good morning");
-//		} else if (time >= 12) {
-//			System.out.println("Good afteernon");
-//		} else if (time >= 15 ) {
-//			System.out.println("Good Evening");
-//		} else if(time > 22 ){
-//			System.out.println("Have a good nigth, go to bed ");
-//		}
 
-		int time = 12;
+		int time = 1;
 
 		if (time < 12) {
-			System.out.println("Good Morning ");
-		} else if (time < 15) {
-			System.out.println("Good Afternoon");
+			System.out.println("Good morning the time is " + time);
+		} else if (time < 16) {
+			System.out.println("Good Afternoon the time is " + time);
+		} else if (time <= 24) {
+			System.out.println("Good Evening the time is " + time);
+		} else if (time > 24) {
+			System.out.println("Invalid time you are probably smoked pot");
+
+		}
+
+		int lunch = 9;
+
+		if (lunch <= 9) {
+			System.out.println("You canNOT affort luch, have a coffee and study JAVA");
+		} else if (lunch <= 10) {
+			System.out.println("You can have a taco or burrito");
+		} else if (lunch <= 20) {
+			System.out.println("You can have sushi or chicken");
+		} else if (lunch >= 21) {
+			System.out.println("You can have a stake");
+
 		} else {
-			System.out.println("Good Evening");
+			System.out.println("Sorry we dont have that");
 		}
 
 	}

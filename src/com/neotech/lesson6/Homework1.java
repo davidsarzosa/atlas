@@ -37,23 +37,51 @@ public class Homework1 {
 		} else {
 			System.out.println("You are good to go, you dont have any allergies ");
 		}
+
+		boolean hasMoneyAtTheBank = true;
+
+		boolean bofa = false;
+		boolean wellsFargo = false;
+		boolean chase = true;
+		boolean frost = false;
+
+		if (hasMoneyAtTheBank = true) {
+			if (bofa) {
+				System.out.println("Get money from bofa! ");
+			} else if (wellsFargo) {
+				System.out.println("Get money from Wells Fargo! ");
+			} else if (chase) {
+				System.out.println("Get money from chase! ");
+			} else if (frost) {
+				System.out.println("Get money from frost! ");
+			} else {
+				System.out.println("You are broke, go find a job in tech! ");
+			}
+
+		}
+
+		boolean hasTravel = true;
+
+		boolean chicago = false;
+		boolean atlanta = false;
+		boolean madrid = false;
+		boolean newYork = false;
+
+		if (hasTravel) {
+			if (chicago) {
+				System.out.println("You are going to chicago tomorrow! ");
+			} else if (atlanta) {
+				System.out.println("You are going to altanta tomorrow! ");
+			} else if (madrid) {
+				System.out.println("You are going to madrid tomorrow! ");
+			} else if (newYork) {
+				System.out.println("You are going to NY tomorrow! get ready! ");
+			} else {
+				System.out.println("You do NOT have any trip put your ass down and study JAVA");
+			}
+
+		}
+
 	}
 
 }
-
-//	public static void main(String[] args) {
-//
-//		boolean HasAllergie = false;
-//		String allergies = ("lactoes, honey, peanut, seafood,");
-//		String allergiesPatien1 = ("lactoes, honey, peanut, seafood, coconout, gluten");
-//
-//		if (HasAllergie)
-//
-//			if (HasAllergie && allergies == allergiesPatien1) {
-//
-//				System.out.println("Don't eat chese, milk, butter, honey, no peanut, no seafood");
-//			} else {
-//				System.out.println("Dont eat any lactoes, honey, peanut, seafood,");
-//			}
-//		System.out.println("You dont have any allergie you re good to go ");
-//	}

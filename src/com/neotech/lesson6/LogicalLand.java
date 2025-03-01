@@ -44,38 +44,33 @@ public class LogicalLand {
 		}
 
 		if (name2 == "Manuel" && smokes && age == 26 && isTrans) {
-			System.out.println("We found the issue = Manuel");
+			System.out.println("We found the mistake, the mistake is Manuel");
 
 		} else {
-			System.out.println("Wrong person keep trying to find the issue");
+			System.out.println("Wrong person keep trying to find him ");
 
 		}
 
 		System.out.println("-------------Separation line ----------------");
 
-		String country2 = "Mexico";
-		String country = "Ecuador";
+		// Identify your country!
+
 		boolean traditionalFood = true;
-		double people = 17000000;
-		boolean ThirtWorld = true;
-		char status = 'C';
-		boolean narcos = true;
+		String people = "17 millones";
+		boolean hasGalapagos = true;
+		boolean novelas = true;
+		boolean mariachis = true;
 		boolean hardWorkers = true;
-		boolean trashyCountry = true;
+		boolean tacos = true;
+		String people1 = "80 millones";
+		int ageCountry1 = 250;
+		int ageCountry2 = 300;
 
-		if (country == "Ecuador")
+		if (traditionalFood && people == "17 millones" && hasGalapagos && hardWorkers && ageCountry1 == 250)
 			System.out.println(" We are talking about Ecuador ");
-		{
 
-			if (people == 17000000 && traditionalFood && ThirtWorld && hardWorkers) {
-
-				System.out.println("I found an amazing place in the world which is this! ");
-
-			}
-			if (country2 == "Mexico" && narcos && traditionalFood && hardWorkers) {
-				System.out.println(" This is Mexico ");
-			}
-
+		if (tacos && mariachis && novelas && people1 == "80 millones" && ageCountry2 == 300) {
+			System.out.println("We are talking about Mexico ");
 		}
 
 	}
