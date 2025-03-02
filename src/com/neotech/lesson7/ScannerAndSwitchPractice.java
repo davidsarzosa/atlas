@@ -96,6 +96,48 @@ public class ScannerAndSwitchPractice {
 
 		System.out.println("The music you like is " + band + "here are your free music subscription");
 
+		
+		
+	/*	Use Scanner
+		Use AND,OR Operator
+
+		1. Ask the user to enter the height in inches. Person should be classified as one of the following:
+			• short (under 60 inch)
+			• medium (between 60 -72 inch)
+			• tall (over 72 inch)
+
+		2. Write a program that will ask for the day (a number from 1-7). Print whether it is a weekend or weekday.
+			If any day from 1-5 → output "It is a weekday"
+			Any day from 6-7 → output "It is a weekend",
+			Any other day → output "Invalid day"
+
+		----------------------------------------------------------------
+
+		These are extra examples that you don't need to submit.
+
+		Use Scanner
+
+		1. You are a loan specialist and you need to ask the user what is the amount of loan that is needed.
+		    If loan is less or equal to 200,000 then you would lend the money otherwise you would reject the client.
+
+		2. You are DMV representative and you need to ask customer their age.
+		    If they are 18 and older you will issue a driver licence to them, otherwise you will offer them to get a learners permit.
+
+		3. Create a Java program that will ask user to input city and temperature.
+		    Your program should convert Fahrenheit into celsius and print "The temperature is the city __ is __"
+		
+		*/
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
