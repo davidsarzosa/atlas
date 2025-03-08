@@ -11,6 +11,10 @@ public class TypeCastingPractice {
 
 		byte TestNumber = (byte) intNumber;
 		System.out.println("byteNumber " + TestNumber);
+		
+		
+		
+		
 
 	}
 
