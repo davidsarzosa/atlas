@@ -35,7 +35,7 @@ public class StringMethods {
 
 		city = "New York City"; // This is a new String, I did not change New York to New York City
 
-		String newCity = "New York"; // this is not a new String, it existed int he pool(Line )
+		String newCity = "New York"; // this is not a new String, it existed in the pool(Line )
 		System.out.println(newCity);
 
 		String sentence = "The size of " + school + "is" + school.length();

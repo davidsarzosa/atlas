@@ -17,7 +17,7 @@ public class StringMethodsMore {
 		System.out.println(index);
 		System.out.println("---------------------");
 
-		// what does ir return if the letter is not on the String ?
+		// what does it return if the letter is not on the String ?
 		System.out.println("The letter with index W is: " + index);
 		System.out.println("---------------------");
 

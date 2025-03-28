@@ -44,7 +44,7 @@ public class StringRegularExpressions {
 		System.out.println(combination5);
 		System.out.println("----------------------------");
 
-		// I will convert to the oposite of the expresison:
+		// I will convert to the opposite of the expresison:
 		// [0-9 ] --> replace all numbers 0-9
 		// [^0-9] --> replace everything else but the number 0-9
 		String combination6 = combination.replaceAll("[^0-9]", "");

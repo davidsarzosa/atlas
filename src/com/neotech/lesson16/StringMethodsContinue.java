@@ -36,7 +36,7 @@ public class StringMethodsContinue {
 
 		System.out.println(equals2);
 
-		// instead of euqaltsIgnoreCase(), I could do this:
+		// instead of euqalsIgnoreCase(), I could do this:
 		System.out.println("---------------------");
 		boolean equalsUsingLower = s1.toLowerCase().equals(s2.toLowerCase());
 		System.out.println(equalsUsingLower);
