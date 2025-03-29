@@ -216,6 +216,42 @@ public class recapPractice {
 		String combinacion6 = combinacion.replaceAll("[^0-9a-zA-Z]", "");
 		System.out.println(combinacion6);
 
+		System.out.println("--------------------------------------");
+		// Here is an Exercise for Student so we need to be inside the main method
+		// to be able to access the method I need a student object
+
+		Student st = new Student();
+		System.out.println("The student grade is " + st.getGrade(81));// you can do it with one step.
+		System.out.println("--------------------------------------");
+
+		// Also you can create a second student
+		Student st2 = new Student();
+		System.out.println("The 2nd student's grade is " + st2.getGrade(65));
+
+	}
+
+// this is for the class Student, we need to create a method getGrade()
+	/*
+	 * Create a class Student that will have a method getGrade. Your method should
+	 * accept the score of a student and return a grade: score > 90 - A score > 80 -
+	 * B score > 70 - C score > 50 - D anything else - F
+	 * 
+	 */
+
+	char getGrade(int score) {
+		char grade;
+		if (score > 90) {
+			grade = 'A';
+		} else if (score > 80) {
+			grade = 'B';
+		} else if (score > 70) {
+			grade = 'C';
+		} else if (score > 50) {
+			grade = 'D';
+		} else {
+			grade = 'F';
+		}
+		return grade;
 	}
 
 }
