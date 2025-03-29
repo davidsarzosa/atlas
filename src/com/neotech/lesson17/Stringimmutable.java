@@ -1,6 +1,6 @@
 package com.neotech.lesson17;
 
-public class Stringimmutable {
+public class StringImmutable {
 
 	public static void main(String[] args) {
 
