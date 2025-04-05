@@ -17,19 +17,19 @@ public class Employee {
 	// methods with different access modifiers
 
 	public void method1() {
-		System.out.println("I am a public method");
+		System.out.println("I am a public method from Employee Class");
 	}
 
 	protected void method2() {
-		System.out.println("I am a protected method! ");
+		System.out.println("I am a protected method! from Employee Class ");
 	}
 
 	void method3() {
-		System.out.println("I am a default method! ");
+		System.out.println("I am a default method! from Employee Class ");
 	}
 
 	private void method4() {
-		System.out.println("I am a private method! ");
+		System.out.println("I am a private method! from Employee Class");
 
 	}
 

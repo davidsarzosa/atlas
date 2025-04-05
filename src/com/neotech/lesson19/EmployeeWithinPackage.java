@@ -25,8 +25,8 @@ public class EmployeeWithinPackage {
 		emp.method1();
 		emp.method2();
 		emp.method3();
+		// emp.method4(); this is private so you will not even see it as an option. 
 		// emp.method4(); // method is not visible because if private
-
 		// emp.method5(); // this method does not exist
 
 	}
