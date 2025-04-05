@@ -6,9 +6,9 @@ public class IQ2 {
 
 		// Write a java program to check whether a given number is prime or not?
 		// number 1 is not prime, Prime number is a number that is greater than 1
-		// prime number is divisible only by 1 and itself
+		// Prime number is divisible only by 1 and itself
 
-		int number = 73243; // Not prime because this is divisible by 1, 3, 5, 7
+		int number = 4523; // Not prime because this is divisible by 1, 3, 5, 7
 		boolean prime = true;
 
 		if (number == 1) {
