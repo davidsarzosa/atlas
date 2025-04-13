@@ -12,30 +12,35 @@ public class Shape {
 
 	int radius;
 
+//	Shape() {
+//	}
+
 	Shape(int radius) {
 		this.radius = radius;
 
 	}
+
 }
 
 class Circle extends Shape {
-	//// this constructor by default calls super() ---> Shape(); but the superclass is not allowing this 
-//	
-//	// i can let the user create an object of this class without passing a radius. But the superclass must get a 
-//	
-//	// radius, so I pass a default radius.
-//	super(5);
-//}
+
+	/*
+	 * Circle() { // this constructor by default calls super() --> Shape(); but the
+	 * super class is // not allowing this
+	 * 
+	 * // I can let the user create an object of this class whitout passing a
+	 * radius. // But the superclass must get a radius, So I pass a default radius.
+	 * super();
+	 * 
+	 * }
+	 */
 
 	Circle(int radius) {
 		super(radius);
-
 	}
 
 	void calculateArea() {
-		System.out.println("The area of the circle is: " + Math.PI * radius * radius);
-
-	
-	
+		System.out.println("The area of the circle is " + Math.PI * radius * radius);
 	}
+
 }

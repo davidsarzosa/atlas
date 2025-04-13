@@ -12,7 +12,7 @@ public class EmployeeTest {
 
 		Contractor c = new Contractor();
 
-		c.hourlyRate = 50;
+		c.hourlyRate = 50.5;
 		c.getPaid();
 		System.out.println("----------------------");
 

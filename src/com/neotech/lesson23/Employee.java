@@ -21,5 +21,5 @@ class Contractor extends Employee {
 }
 
 class FullTimeEmployee extends Employee {
-	
+
 }

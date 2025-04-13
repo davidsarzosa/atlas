@@ -14,19 +14,18 @@ public class AnimalTest {
 		tiger.sleep();
 		tiger.run();
 		System.out.println();
-		// Casting
 
+		// Casting
 		// primitive casting
 		int i = 3;
 		double d = i;
 
 		// casting with objects
-
 		// what does this line ?
-		// new Tiger(); --> creates a new Tiger object
-		// Tiger tiger; --> tiger object
+		// new Tiger(); --> creates a new Tiger object (whose object is this ? )
+		// Tiger tiger; --> tiger object (tiger object )
 
-		// create a Tiger object, assing it to an Animal object
+		// create a Tiger object, assign it to an Animal object
 		// Up casting
 		Animal a = new Tiger();
 		// a is of Animal type, but has a Tiger object assigned to it
@@ -34,7 +33,7 @@ public class AnimalTest {
 		a.sleep();
 		System.out.println();
 		// a.run(); // Compile error - object a is of Animal type, it can
-		// only see what is delared in the Animal class
+		// only see what is declared in the Animal class
 
 		// When casting Tiger as an Animal object we are able
 		// to access all methods of the Animal class
@@ -54,9 +53,9 @@ public class AnimalTest {
 
 		Tiger t = (Tiger) a;
 
-		t.eat();
-		t.sleep();
-		t.run();
+//		t.eat();
+//		t.sleep();
+//		t.run();
 
 	}
 }

@@ -23,7 +23,7 @@ class Tiger extends Animal {
 	}
 
 	public void run() {
-		System.out.println("Tiger runs while hunting! ");
+		System.out.println("Tiger runs really fast! ");
 	}
 
 }
