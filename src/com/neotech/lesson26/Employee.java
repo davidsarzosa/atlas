@@ -3,7 +3,8 @@ package com.neotech.lesson26;
 public class Employee {
 
 	private String name;
-	private int  age;
+
+	private int age;
 	private double salary;
 
 	// we put the variables as private
@@ -26,6 +27,7 @@ public class Employee {
 	// getter for age
 	public int getAge() {
 		return age;
+
 	}
 
 	// getter for salary
@@ -38,31 +40,36 @@ public class Employee {
 
 	/*
 	 * If you want to be able to set the name, you have to send a String that is not
+	 * ======= }
+	 * 
+	 * // Setter for name /* if you want to be able to set the name, you have to
+	 * send a String that is not >>>>>>> d1b88c210510c2cd1176c4fbd9a435be9e5080d0
 	 * empty and is at least 2 characters
 	 * 
 	 * @param name
 	 * 
 	 */
+
+	// Setter for name
+	// I want to allow this only if the String sent
+	// is not empty and is at least 2 characters
+
 	public void setName(String name) {
-		if (!name.isEmpty() && name.length() >= 2) {
+		if (!name.isEmpty() && name.length() >= 2)
 			this.name = name;
-		}
 
 	}
 
-	// setter for age
-
+	// Setter for age
 	public void setAge(int age) {
 		this.age = age;
-		
-	}
-	
-	// setter for salary 
-	public void setSalary(double salary) {
-		this.salary = salary;
-		
-	}
-	
-	
 
+	}
+
+	// Setter for salary
+	public void SetSalary(double salary) {
+
+		this.salary = salary;
+
+	}
 }
