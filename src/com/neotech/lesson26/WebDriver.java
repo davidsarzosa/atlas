@@ -3,7 +3,7 @@ package com.neotech.lesson26;
 public interface WebDriver {
 	/*
 	 * Homework 1: Create a WebDriver Interface that will have the following
-	 * unimplemented behaviour: openBrowser(), closeBrowser(), maximizeWindow(),
+	 * unimplemented behavior: openBrowser(), closeBrowser(), maximizeWindow(),
 	 * findElement().
 	 * 
 	 * Create another interface named Camera that will have the method:
