@@ -35,7 +35,7 @@ public class homework {
 		FileInputStream fis = new FileInputStream(filePath);
 
 		Workbook book = new XSSFWorkbook(fis);
-		Sheet sheet = book.getSheet("Homework");
+		Sheet sheet = book.getSheet("Companies");
 
 		Row row = sheet.getRow(2);
 		ArrayList<String> rowData = new ArrayList<>();
@@ -45,8 +45,8 @@ public class homework {
 		}
 
 		System.out.println("Row Values " + rowData);
+		
 		// Always close resources
-
 		book.close();
 		fis.close();
 

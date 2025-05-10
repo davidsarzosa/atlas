@@ -28,21 +28,17 @@ public class IQ1 {
 		System.out.println("a = " + a + " b= " + b);
 
 		System.out.println("----------------------------");
-		// this will work for any 2 strings! 
+		// this will work for any 2 strings!
 		String str1 = "Java";
 		String str2 = "Selenium";
 		System.out.println(str1 + " " + str2);
 		str1 = str1 + str2; // JavaSelenium
-		str2 = str1.substring(0, str1.length() - str2.length()); // if I hardcode this will work for this but not for other exercises 
+		str2 = str1.substring(0, str1.length() - str2.length()); // if I hardcode this will work for this but not for
+																	// other exercises
 		// System.out.println(str1 + " " + str2);
 		str1 = str1.substring(str2.length());
 		System.out.println(str1 + " " + str2);
 
-		
-		
-		
-		
-		
 	}
 
 }
