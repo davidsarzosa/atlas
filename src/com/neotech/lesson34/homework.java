@@ -1,13 +1,14 @@
 package com.neotech.lesson34;
 
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.poi.ss.usermodel.Sheet;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 
 import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class homework {
 
@@ -33,7 +34,6 @@ public class homework {
 		System.out.println(filePath);
 
 		FileInputStream fis = new FileInputStream(filePath);
-
 		Workbook book = new XSSFWorkbook(fis);
 		Sheet sheet = book.getSheet("Companies");
 
@@ -45,7 +45,7 @@ public class homework {
 		}
 
 		System.out.println("Row Values " + rowData);
-		
+
 		// Always close resources
 		book.close();
 		fis.close();
