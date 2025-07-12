@@ -8,7 +8,7 @@ public class IQ2 {
 		// number 1 is not prime, Prime number is a number that is greater than 1
 		// Prime number is divisible only by 1 and itself
 
-		int number = 4523; // Not prime because this is divisible by 1, 3, 5, 7
+		int number = 3; // Not prime because this is divisible by 1, 3, 5, 7
 		boolean prime = true;
 
 		if (number == 1) {
