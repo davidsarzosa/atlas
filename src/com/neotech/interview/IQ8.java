@@ -18,6 +18,9 @@ public class IQ8 {
 		names.add("Juan");
 		names.add("Ligia");
 		names.add("Adrian");
+		names.add("Mateo");
+		
+		
 
 		// This will add all the list elements into the newly created set
 		Set<String> set = new LinkedHashSet<>(names);
@@ -39,6 +42,7 @@ public class IQ8 {
 		names2.add("Juan");
 		names2.add("Ligia");
 		names2.add("Adrian");
+		names2.add("Mateo");
 
 		// let me create an empty list of Strings
 
